@@ -1,13 +1,13 @@
 import React from "react";
 import { ImageWrapper } from "./ImageSection.style";
-import TempImage from "../../images/Cambiar.png";
+import webTemplate from "../../images/wevDeveloper.jpg";
 import PrimaryButton from "../PrimaryBottom/PrimaryButton";
 
 const ImageSection = () => {
   return (
     <ImageWrapper>
       <div className="left-content">
-        <img src={TempImage} alt="temp"></img>
+        <img src={webTemplate} alt="temp"></img>
       </div>
       <div className="rigth-content">
         <h4>
@@ -15,9 +15,9 @@ const ImageSection = () => {
         </h4>
 
         <p className="paragraph">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim dolores
-          nisi id laboriosam eveniet totam deleniti porro vitae in, neque ut
-          error iure at repudiandae.
+          Hello, I am software developer focused on designing, programming,
+          testing and maintaining computer and software systems for the purpose
+          of solving problems for users.
         </p>
         <div className="about-info">
           <div className="info-title">

@@ -2,11 +2,15 @@ import { style } from "@mui/system";
 import styled from "styled-components";
 
 export const ResumeStyle = styled.section`
+  .resume-content {
+    margin-bottom: 1rem;
+  }
   .small-title {
-    padding-bottom: 2.5rem;
+    padding-bottom: 1rem;
   }
 
   .resume-content {
-    border-left: 2px solid var(--border-color);
+    border: 2px solid var(--border-color);
+    padding: 0.5rem;
   }
 `;

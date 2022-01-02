@@ -1,9 +1,9 @@
 import React from "react";
 import { Wrapper } from "./SideBar.style";
 import NavBar from "./NavBar";
-const SideBar = () => {
+const SideBar = ({ navToggle }) => {
   return (
-    <Wrapper>
+    <Wrapper className={`${navToggle ? "nav-toggle" : ""}`}>
       <NavBar />
     </Wrapper>
   );

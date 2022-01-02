@@ -7,6 +7,10 @@ export const StyledButton = styled.a`
   display: inline-block;
   border-radius: 3px;
   text-transform: uppercase;
+
+  @media screen and (max-width: 830px) {
+    margin-bottom: 3rem;
+  }
   cursor: pointer;
   position: relative;
   font-size: inherit;

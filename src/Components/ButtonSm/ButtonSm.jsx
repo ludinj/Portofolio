@@ -22,6 +22,7 @@ export const ButtonStyled = styled.button`
   font-size: inherit;
   color: var(--white-color);
   margin-bottom: 1rem;
+
   cursor: pointer;
   transition: all 0.4s ease-in;
   border-radius: 3px;

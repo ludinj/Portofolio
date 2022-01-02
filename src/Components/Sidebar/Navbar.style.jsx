@@ -10,15 +10,25 @@ export const Wrapper = styled.nav`
   border-right: 1px solid var(--border-color);
   .avatar {
     width: 90%;
+
     border-bottom: 1px solid var(--border-color);
-    padding: 1.1rem 0;
+
     justify-content: center;
+    align-items: center;
     display: flex;
+
     img {
       width: 65%;
-      height: 10rem;
+      height: 80%;
       border-radius: 50%;
       border: 7px solid var(--border-color);
+      object-fit: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      @media screen and (max-width: 1200px) {
+        transform: scale(90%);
+      }
     }
   }
   .nav-items {

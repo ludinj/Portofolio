@@ -4,8 +4,11 @@ export const ImageWrapper = styled.div`
   margin-top: 4rem;
   display: flex;
 
-  @media screen and (max-width: 768px) {
-    display: block;
+  @media screen and (max-width: 950px) {
+    flex-direction: column;
+    .left-content {
+      margin-bottom: 2rem;
+    }
   }
   .left-content {
     width: 100%;

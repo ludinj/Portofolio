@@ -5,7 +5,7 @@ export const SmallTitleStyle = styled.div`
   align-items: center;
 
   p {
-    padding: 1rem;
+    padding: 0.5rem;
     svg {
       font-size: 3rem;
     }

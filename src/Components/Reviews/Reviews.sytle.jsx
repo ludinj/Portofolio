@@ -5,6 +5,7 @@ export const ReviewStyle = styled.section`
     font-size: 2rem;
     padding: 1rem 0;
   }
+
   .reviews {
     display: flex;
     position: relative;
@@ -12,7 +13,16 @@ export const ReviewStyle = styled.section`
     justify-content: space-between;
     background: transparent;
     width: 100%;
-
+    @media screen and (max-width: 950px) {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 1.5rem;
+    }
+    @media screen and (max-width: 650px) {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 1.5rem;
+    }
     .review {
       background-color: var(--background-dark-grey);
       border: 1px solid var(--border-color);

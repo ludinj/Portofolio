@@ -23,7 +23,7 @@ const MainContent = () => {
           <Route path="/about" exact element={<AboutPage />} />
           <Route path="/resume" exact element={<ResumePage />} />
           <Route path="/portofolios" exact element={<PortofolioPage />} />
-          <Route path="/blogs" exact element={<AboutPage />} />
+          {/* <Route path="/blogs" exact element={<AboutPage />} /> */}
           <Route path="/contact" exact element={<ContactPage />} />
         </Routes>
       </MainWrapper>

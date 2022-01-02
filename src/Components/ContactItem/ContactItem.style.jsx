@@ -5,7 +5,10 @@ export const ContactWrapper = styled.div`
   display: flex;
   align-items: center;
   padding: 1.2rem 2rem;
-
+  position: relative;
+  @media screen and (max-width: 510px) {
+    width: 80%;
+  }
   &:not(:last-child) {
     margin-bottom: 2rem;
   }
@@ -29,7 +32,8 @@ export const ContactWrapper = styled.div`
     }
 
     p {
-      padding: 0.1rem 0;
+      padding: 0.1rem 0.1rem;
+      position: relative;
     }
   }
 `;

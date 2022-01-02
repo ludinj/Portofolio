@@ -50,8 +50,8 @@ export const Header = styled.header`
 
       .youtube {
         &:hover {
-          border: 2px solid red;
-          color: red;
+          border: 2px solid blue;
+          color: white;
         }
       }
       .facebook {

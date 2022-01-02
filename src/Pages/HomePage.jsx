@@ -3,6 +3,7 @@ import { Header } from "./HomePage.style";
 import FacebokIcon from "@material-ui/icons/Facebook";
 import GithubIcon from "@material-ui/icons/GitHub";
 import YoutubeIcon from "@material-ui/icons/YouTube";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import { useEffect, useState } from "react";
 
 const HomePage = () => {
@@ -21,7 +22,7 @@ const HomePage = () => {
       </div>
       <div className="typography">
         <h1>
-          Hi I'm
+          Hi, I'm
           <span> Ludin Jaimes</span>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum eos
@@ -29,22 +30,19 @@ const HomePage = () => {
           </p>
           <div className="icons">
             <a
-              href="https://www.youtube.com/watch?v=tiOChpaiFBc&list=WL&index=48&t=4652s"
+              href="https://www.linkedin.com/in/ludin-jaimes-6140a41b1/"
               className="icon facebook"
             >
               <FacebokIcon />
             </a>
             <a
-              href="https://www.youtube.com/watch?v=tiOChpaiFBc&list=WL&index=48&t=4652s"
-              className="icon github"
-            >
-              <GithubIcon />
-            </a>
-            <a
-              href="https://www.youtube.com/watch?v=tiOChpaiFBc&list=WL&index=48&t=4652s"
+              href="https://www.linkedin.com/in/ludin-jaimes-6140a41b1/"
               className="icon youtube"
             >
-              <YoutubeIcon />
+              <LinkedInIcon />
+            </a>
+            <a href="https://github.com/ludinj/" className="icon github">
+              <GithubIcon />
             </a>
           </div>
         </h1>

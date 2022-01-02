@@ -6,7 +6,11 @@ export const ContactWrapper = styled.section`
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 2rem;
-
+    @media screen and (max-width: 830px) {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-column-gap: 2rem;
+    }
     .rigth-section {
       display: flex;
 
@@ -20,7 +24,9 @@ export const ContactWrapper = styled.section`
     }
     .form {
       width: 100%;
-
+      @media screen and (max-width: 510px) {
+        width: 80%;
+      }
       .form-field {
         margin-top: 2rem;
         position: relative;

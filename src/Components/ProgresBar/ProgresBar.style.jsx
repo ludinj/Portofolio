@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const ProgresBarStyle = styled.div`
   width: 100%;
-  padding: 1rem 0.5rem;
+  padding: 0.5rem 0.5rem;
   h6 {
     padding: 0.5rem 0;
     color: var(--white-color);

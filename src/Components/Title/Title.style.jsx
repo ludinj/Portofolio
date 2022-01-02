@@ -12,8 +12,16 @@ export const TitleStyle = styled.div`
     font-size: 3.1rem;
     position: relative;
     text-transform: uppercase;
-    padding-bottom: 0.7rem;
+    padding: 0.7rem 0;
     animation: textanimation 0.6s ease-in-out;
+
+    @media screen and (max-width: 750px) {
+      font-size: 2rem;
+    }
+
+    @media screen and (max-width: 480px) {
+      font-size: 1rem;
+    }
     @keyframes textanimation {
       0% {
         opacity: 0;
@@ -52,8 +60,15 @@ export const TitleStyle = styled.div`
       position: absolute;
       left: 0;
       top: 30%;
-      font-size: 5rem;
+      font-size: 4rem;
       z-index: -1;
+
+      @media screen and (max-width: 750px) {
+        font-size: 3rem;
+      }
+      @media screen and (max-width: 480px) {
+        font-size: 2rem;
+      }
     }
   }
 `;

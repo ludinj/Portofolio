@@ -21,22 +21,22 @@ const ServicesSection = () => {
         <div className="services">
           <ServiceCard
             image={desing}
-            title={" Web desing"}
+            title={"Web desing"}
             paragraph={
-              "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos omnis incidunt"
+              "Experience in the latest web development standards using Javascript, CSS, React.js"
             }
           />
           <div className="mid-section">
             <ServiceCard
-              image={gamedev}
-              title={"Artifisial Intelligence"}
+              image={intelligence}
+              title={"Microservices"}
               paragraph={
-                "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos omnis incidunt"
+                "Developing microservices using Java SpringBoot, testing and debuguin and handling Posgrest database "
               }
             />
           </div>
           <ServiceCard
-            image={desing}
+            image={gamedev}
             title={"Game Dev"}
             paragraph={
               "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos omnis incidunt"

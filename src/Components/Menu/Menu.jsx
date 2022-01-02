@@ -10,7 +10,10 @@ const Menu = ({ menuItem }) => {
           <div className="grid-item" key={item.id}>
             <div className="portofolio-content">
               <div className="portofolio-img">
-                <img src={item.image} alt=""></img>
+                <div className="imga">
+                  <img src={item.image} alt=""></img>
+                </div>
+
                 <ul>
                   <li>
                     <a href={item.link1}>
@@ -41,9 +44,21 @@ const MenuItemStyle = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 2rem;
+  @media screen and (max-width: 950px) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+  }
 
+  @media screen and (max-width: 650px) {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 2rem;
+  }
   h6 {
     font-size: 1.5rem;
+    color: var(--white-color);
+    padding: 0.7rem 0;
   }
 
   .grid-item {
@@ -57,7 +72,12 @@ const MenuItemStyle = styled.div`
         justify-content: center;
         align-items: center;
         margin-bottom: 1rem;
-
+        .imga {
+          border: 1px solid var(--border-color);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
         img {
           width: 100%;
           height: 30vh;
