@@ -22,14 +22,14 @@ const ImageSection = () => {
         <div className="about-info">
           <div className="info-title">
             <p>Full Name</p>
-            <p>Age</p>
+
             <p>Nacionality</p>
             <p>Leguange</p>
             <p>Location</p>
           </div>
           <div className="info">
             <p>: Ludin Jaimes</p>
-            <p>: 30</p>
+
             <p>: Venezuelan</p>
             <p>: Spanish-English</p>
             <p>: Venezuela</p>

@@ -26,7 +26,6 @@ const PortofolioPage = () => {
       <MainLayout>
         <Title title={"Portofolio"} span={"Portofolio"} />
         <InerLayout>
-          <ButtonSm button={button} filter={filter} />
           <Menu menuItem={mainMenu}></Menu>
         </InerLayout>
       </MainLayout>

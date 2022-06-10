@@ -21,26 +21,24 @@ const ServicesSection = () => {
         <div className="services">
           <ServiceCard
             image={desing}
-            title={"Web desing"}
+            title={"Web design"}
             paragraph={
-              "Experience in the latest web development standards using Javascript, CSS, React.js"
+              "Experience in the latest web development standards using Javascript, CSS, React.js and other frame works to design develop a deploy modern web pages"
             }
           />
           <div className="mid-section">
             <ServiceCard
               image={intelligence}
-              title={"Microservices"}
+              title={"Rest API"}
               paragraph={
-                "Developing microservices using Java SpringBoot, testing and debuguin and handling Posgrest database "
+                "Developing Rest API using Node.js and Express.js to perform CRUD operations to connect to a data base "
               }
             />
           </div>
           <ServiceCard
             image={gamedev}
             title={"Game Dev"}
-            paragraph={
-              "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos omnis incidunt"
-            }
+            paragraph={"In process.."}
           />
         </div>
       </ServiceSectionStyle>

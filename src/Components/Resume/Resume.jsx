@@ -16,8 +16,8 @@ const Resume = () => {
   const experience = [
     {
       id: 1,
-      title: "Front end Developer",
-      year: "2019- 2020",
+      title: "Jr Software Developer",
+      year: "2019- 2021",
       subtitle: "Palmar technologies C.A",
       text:
         "  In my position as Software Engineer with Palmar Technologies C.A, I was involved with project planning, design" +
@@ -36,18 +36,12 @@ const Resume = () => {
       title: "Computer science",
       year: "2015- 2018",
       subtitle: "Universidad Rafael Belloso",
-      text:
-        "During this time i worked as an inter developing and maintaining software Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia culpa tempore dolores totam?" +
-        "Possimus consequuntur at perspiciatis suscipit commodi adipisci.",
     },
     {
       id: 4,
       title: "Computer science boot camp",
       year: "2018",
       subtitle: "Universidad Rafael Belloso",
-      text:
-        "During this time i worked as an inter developing and maintaining software Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia culpa tempore dolores totam?" +
-        "Possimus consequuntur at perspiciatis suscipit commodi adipisci.",
     },
   ];
 

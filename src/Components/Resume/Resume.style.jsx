@@ -12,5 +12,6 @@ export const ResumeStyle = styled.section`
   .resume-content {
     border: 2px solid var(--border-color);
     padding: 0.5rem;
+    background-color: var(--background-dark-color);
   }
 `;

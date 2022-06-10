@@ -54,7 +54,7 @@ const ContactPage = () => {
                   ></textarea>
                 </div>
                 <div className="form-field">
-                  <PrimaryButton title={"Send Email"}></PrimaryButton>
+                  <PrimaryButton title={"Not implemented"}></PrimaryButton>
                 </div>
               </form>
             </div>

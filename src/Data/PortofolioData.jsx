@@ -1,71 +1,41 @@
-import css1 from "../images/cv_css.png";
-import css2 from "../images/ms.png";
-import react1 from "../images/react_styled.png";
-import img2 from "../images/maya-4.jpg";
-import img3 from "../images/maya-3.jpg";
+import bookingImg from "../images/booking-app.png";
+import dashboard from "../images/Dashboard.png";
+import actorFinder from "../images/ActorFinder.png";
+import socialMedia from "../images/socialMedia.png";
 
 export const portfolios = [
   {
     id: 1,
     category: "CSS",
-    image: css1,
-    link1: "https://www.google.com",
-    link2: "https://www.google.com",
-    title: "Responsive Resume",
-    text: "Created with only HTML and CSS.",
+    image: bookingImg,
+    link1: "https://github.com/ludinj/Boking-app",
+    title: "Hotel Booking app",
+    text: "Created with React.js, SASS and Express.js in the back end",
   },
   {
     id: 2,
     category: "JavaScript",
-    image: img3,
-    link1: "https://www.google.com",
-    link2: "https://www.google.com",
-    title: "How To Animate In Maya",
-    text: "Number one Animation Application",
+    image: dashboard,
+    link1: "https://github.com/ludinj/Responsive-Dashboard",
+    title: "Responsive Admin Dashboard",
+    text: "A responsive dashboard build with React.js and SASS",
   },
-  //   {
-  //     id: 3,
-  //     category: "Javascript",
-  //     image: img3,
-  //     link1: "https://www.google.com",
-  //     link2: "https://www.google.com",
-  //     title: "How To Animate In Maya",
-  //     text: "Number one Animation Application",
-  //   },
+
   {
     id: 3,
     category: "Animation",
-    image: img2,
-    link1: "https://www.google.com",
-    link2: "https://www.google.com",
-    title: "How To Use Blender",
-    text: "Free Animation Software",
+    image: actorFinder,
+    link1: "https://github.com/ludinj/actor-finder",
+    title: "App to find info about an Actor",
+    text: "Upload an image of an actor an get his information",
   },
-  //   {
-  //     id: 5,
-  //     category: "Animation",
-  //     image: img2,
-  //     link1: "https://www.google.com",
-  //     link2: "https://www.google.com",
-  //     title: "How To Use Blender",
-  //     text: "Free Animation Software",
-  //   },
+
   {
     id: 4,
     category: "React JS",
-    image: react1,
-    link1: "https://www.google.com",
-    link2: "https://www.google.com",
-    title: "Responsive Portfolio Website",
-    text: "Created using different technologies such as Material UI, Styled-Components and more...",
-  },
-  {
-    id: 5,
-    category: "CSS",
-    image: css2,
-    link1: "https://www.google.com",
-    link2: "https://www.google.com",
-    title: "Microsoft Website Clone",
-    text: "Created using HTML and CSS",
+    image: socialMedia,
+    link1: "https://github.com/ludinj/Social-media-app",
+    title: "Social Media app",
+    text: "Created using React.js, SASS and Express.js",
   },
 ];

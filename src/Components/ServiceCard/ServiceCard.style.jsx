@@ -16,6 +16,7 @@ export const ServiceWrapper = styled.div`
   }
   .container {
     padding: 1.2rem;
+    min-height: 420px;
     h4 {
       color: var(--white-color);
       font-size: 1.4rem;

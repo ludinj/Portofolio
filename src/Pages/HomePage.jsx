@@ -1,8 +1,6 @@
 import Particula from "../Components/Particles";
 import { Header } from "./HomePage.style";
-import FacebokIcon from "@material-ui/icons/Facebook";
 import GithubIcon from "@material-ui/icons/GitHub";
-import YoutubeIcon from "@material-ui/icons/YouTube";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import { useEffect, useState } from "react";
 
@@ -25,16 +23,11 @@ const HomePage = () => {
           Hi, I'm
           <span> Ludin Jaimes</span>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum eos
-            ullam velit nam fugiat cupiditate nobis, nostrum animi totam! Neque.
+            Hello, I am software developer focused on designing, programming,
+            testing and maintaining computer and software systems for the
+            purpose of solving problems for users.
           </p>
           <div className="icons">
-            <a
-              href="https://www.linkedin.com/in/ludin-jaimes-6140a41b1/"
-              className="icon facebook"
-            >
-              <FacebokIcon />
-            </a>
             <a
               href="https://www.linkedin.com/in/ludin-jaimes-6140a41b1/"
               className="icon youtube"
