@@ -1,16 +1,16 @@
-import { MainLayout, InerLayout } from "../../Styles/InerLayout";
+import { InerLayout } from "../../Styles/InerLayout";
 import ResumeItem from "../ResumeItem/ResumeItem";
 import Title from "../Title/Title";
 import { ResumeStyle } from "./Resume.style";
 import BrifcaseIcon from "@material-ui/icons/BusinessCenter";
-import BooKIcon from "@material-ui/icons/Book";
+
 import SchoolIcon from "@material-ui/icons/School";
 import React from "react";
 import SmallTitle from "../SmalTitle/SmallTitle";
 
 const Resume = () => {
   const brifcase = <BrifcaseIcon />;
-  const bookIcon = <BooKIcon />;
+
   const School1 = <SchoolIcon />;
 
   const experience = [

@@ -1,32 +1,30 @@
-import React, { useState } from "react";
 import Title from "../Components/Title/Title";
 import { InerLayout, MainLayout } from "../Styles/InerLayout";
 import { PortofolioStyle } from "./PortofolioPage.style";
 import Menu from "../Components/Menu/Menu";
 import { portfolios } from "../Data/PortofolioData";
-import ButtonSm from "../Components/ButtonSm/ButtonSm";
+// import ButtonSm from "../Components/ButtonSm/ButtonSm";
 
-const allButtons = ["All", ...new Set(portfolios.map((item) => item.category))];
+// const allButtons = ["All", ...new Set(portfolios.map((item) => item.category))];
 const PortofolioPage = () => {
-  const [mainMenu, setMainMenu] = useState(portfolios);
-  const [button, setButton] = useState(allButtons);
+  // const [button, setButton] = useState(allButtons);
 
-  const filter = (button) => {
-    if (button === "All") {
-      setMainMenu(portfolios);
-      return;
-    }
-    const filteredData = portfolios.filter((item) => item.category === button);
+  // const filter = (button) => {
+  //   if (button === "All") {
+  //     setMainMenu(portfolios);
+  //     return;
+  //   }
+  //   const filteredData = portfolios.filter((item) => item.category === button);
 
-    setMainMenu(filteredData);
-  };
+  //   setMainMenu(filteredData);
+  // };
 
   return (
     <PortofolioStyle>
       <MainLayout>
         <Title title={"Portofolio"} span={"Portofolio"} />
         <InerLayout>
-          <Menu menuItem={mainMenu}></Menu>
+          <Menu menuItem={portfolios}></Menu>
         </InerLayout>
       </MainLayout>
     </PortofolioStyle>
